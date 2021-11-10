@@ -30,7 +30,7 @@ export default function Album() {
               boxSize="300px"
               src={photos[index]?.url}
               onClick={() => {
-                navigate(`/albums`);
+                navigate(`/albums/photos`);
               }}
             ></Image>
             <b>{album.title}</b>
